@@ -30,5 +30,15 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules", "db/**/*", "outputs/**/*", "work/**/*", "worker/**/*"]
+  "exclude": [
+    "node_modules",
+    "db/**/*",
+    "outputs/**/*",
+    "work/**/*",
+    "worker/**/*",
+    "index.ts",
+    "vite.config.ts",
+    "cloudflare-workers.d.ts",
+    "build/**/*"
+  ]
 }
